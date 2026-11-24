@@ -2,7 +2,7 @@ name: Fetch Market Data
 
 on:
   schedule:
-    - cron: '0 22 * * 1-5'
+    - cron: '50 22 * * 1-5'  # 06:50 HKT, Tue-Sat
   workflow_dispatch:
 
 permissions:
